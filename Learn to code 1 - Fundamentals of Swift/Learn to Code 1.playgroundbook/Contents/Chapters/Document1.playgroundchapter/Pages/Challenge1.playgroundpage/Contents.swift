@@ -6,20 +6,20 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Teleport through the portal to collect the gem.
+ **挑战：** 通过使用传送门收集宝石。
  
- For your first challenge, there’s a new element in Byte’s world. A **portal** teleports Byte from one place to another, with Byte facing the same direction going in and out.
+ 这是第一个挑战关，Byte 的世界中会出现一种新的元素： **传送门** 会将 Byte 从一个地方传送到另一个地方，并且在传送前后保持方向不变。
  
- You’ll need to use all the [commands](glossary://command) you’ve learned so far, in the right order, to toggle open the switch, move through the portal, and collect the gem.
+ 你可以使用所有曾经学过的 [命令](glossary://command) ，在正确流程下，完成诸如打开开关、通过传送门、收集宝石的任务。
  
- Don’t worry if you don’t get it right the first time. This is your chance to experiment! 
+ 如果不能一次通过，别太在意，多尝试几次。
 */
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

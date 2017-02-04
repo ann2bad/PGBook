@@ -26,7 +26,7 @@ playgroundPrologue()
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

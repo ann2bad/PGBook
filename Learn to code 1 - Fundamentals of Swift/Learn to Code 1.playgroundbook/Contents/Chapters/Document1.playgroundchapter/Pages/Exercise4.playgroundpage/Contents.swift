@@ -6,22 +6,22 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Find the bugs and fix them.
+ **目标：** 找到并修复 Bug 
  
- When you write code, it’s easy to make mistakes. A mistake that keeps your program from running correctly is called a [bug](glossary://bug), and finding and fixing bugs is called [debugging](glossary://debug).
+ 写代码时难免会出现这样那样的错误。使程序不能正确运行的错误称为 [bug](glossary://bug)，找到并修复 Bug 的过程称为 [调试](glossary://debug)。
  
- The code below contains one or more bugs. To debug it, rearrange the commands into the right order to solve the puzzle.
+ 下面的代码包含有若干 Bug，重新安排正确的命令顺序将程序调试正确。
  
- 1. steps: Run the code to see where the mistake occurs.
- 2. Identify the command that's in the wrong place, then tap it to select it.
- 3. Drag the command to the correct location, then run the code again to test it.
+ 1. 运行代码，看看哪里出现错误。
+ 2. 找出出现错误的命令，点击它。
+ 3. 将其拖拽到正确的位置，然后重新运行代码继续调试，直到完全正确。
 */
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 moveForward()
 turnLeft()
 moveForward()

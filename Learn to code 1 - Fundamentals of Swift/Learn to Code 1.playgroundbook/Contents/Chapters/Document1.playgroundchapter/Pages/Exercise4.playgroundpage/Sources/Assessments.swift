@@ -3,7 +3,7 @@
 //
 //  Copyright (c) 2016 Apple Inc. All Rights Reserved.
 //
-let success = "### Congratulations! \nYou found a bug in the code. All the right commands were written down, but they were in the wrong order. You “debugged” this code by rearranging the commands until you solved the puzzle. \n\n[**Next Page**](@next) "
+let success = "### 恭喜！ \n你已经成功找到代码中的 bug。所有命令都是正确的，但是他们的位置有错误的。通过重新排列命令的顺序来“调试”程序，直到成功解决问题。 \n\n[**下一关**](@next) "
 
 
 let solution = "```swift\nmoveForward()\nmoveForward()\nturnLeft()\nmoveForward()\ncollectGem()\nmoveForward()\ntoggleSwitch()\n```"
@@ -13,8 +13,8 @@ public func assessmentPoint() -> AssessmentResults {
     let checker = ContentsChecker(contents: PlaygroundPage.current.text)
     
     var hints = [
-        "Take a minute to think through what the correct sequence of commands would be, and rearrange the existing code to match that sequence.",
-        "Fix the bug by changing the order of commands so that Byte collects the gem and toggles open the switch.",
+        "好好想一想正确的命令顺序应该是什么？将现有的代码调整到这个顺序。",
+        "改变命令的顺序来修复 bug ，让 Byte 成功收集宝石并打开开关。",
         ]
     
     let defaultContents = [
@@ -28,13 +28,13 @@ public func assessmentPoint() -> AssessmentResults {
     ]
 
     if checker.numberOfStatements > 7 {
-        hints[0] = "You've added more commands than you need. To rearrange existing code, tap once on a command to select it, then tap and drag it to a new location."
+        hints[0] = "你添加了并不需要的命令。点击现有命令，然后将其拖拽到正确的位置。"
     } else if world.commandQueue.containsIncorrectCollectGemCommand() {
-        hints[0] = "Did you notice that bug? Byte tried to collect a gem that wasn't there! Rearrange the commands so that Byte is standing on a tile with a gem before using `collectGem()`."
+        hints[0] = "还没有找到 bug 吗？Byte 尝试在一个并没有宝石的位置收集宝石！重新排列命令，让 Byte 先到达宝石的位置再用 `collectGem()` 命令收集。"
     } else if world.commandQueue.containsIncorrectCollectGemCommand() && world.commandQueue.containsIncorrectToggleCommand() {
-        hints[0] = "Oops, you tried to collect a gem and toggle a switch, but Byte wasn't on the right tiles! Can you get Byte to the correct tiles before using these commands?"
+        hints[0] = "啊哦，你让 Byte 收集宝石和打开开关的时候 Byte 并没有处于正确的位置！试着先让 Byte 到达正确的位置再使用响应的命令。"
     } else if checker.calledFunctions == defaultContents {
-        hints[0] = "Did you notice when the bug occurred? To rearrange your code, tap once on a command to select it, then tap and drag it to a new location."
+        hints[0] = "注意到 bug 在什么时候发生了吗？重新排列代码，点击现有命令，然后将其拖拽到正确的位置。"
         
     }
     

@@ -3,7 +3,7 @@
 //
 //  Copyright (c) 2016 Apple Inc. All Rights Reserved.
 //
-let success = "### Great job! \nYou’ve written more complex code, and you’ve learned that the order of the commands is important.\n\nIncluding a command for each step is important too; if you accidentally leave one out, Byte won’t be able to finish the task. \n\n[**Next Page**](@next)"
+let success = "### 真棒！ \n你写出了更复杂的代码，并且应该注意到代码中命令的顺序是至关重要的。\n\n每一步中包含的命令也很重要，如果不小心弄错，Byte 可能就无法完成任务了。 \n\n[**下一关**](@next)"
 
 let solution = "```swift\nmoveForward()\nmoveForward()\nturnLeft()\nmoveForward()\nmoveForward()\ncollectGem()\n```"
 
@@ -12,8 +12,8 @@ public func assessmentPoint() -> AssessmentResults {
     let checker = ContentsChecker(contents: PlaygroundPage.current.text)
 
 var hints = [
-    "To reach the gem, Byte needs to move forward two tiles, then turn left, then move forward two more tiles.",
-    "The ``moveForward()`` [command](glossary://command) moves Byte ahead only one tile. You need to use the command twice at the end before Byte can collect the gem."
+    "Byte 想要得到宝石，首先需要向前走两格，然后向左转，最后再向前走两格。",
+    "``moveForward()`` [命令](glossary://command) 只会让 Byte 向前移动一格，所以你需要使用两次这个命令才能让 Byte 收集到宝石。"
 ]
     
     let oneTileMovement = [
@@ -30,15 +30,15 @@ var hints = [
     ]
     
     if world.commandQueue.containsIncorrectCollectGemCommand() {
-        hints[0] = "For the `collectGem()` command to work, you must move Byte to the tile with the gem."
+        hints[0] = "要让 `collectGem()` 命令正常工作， Byte 需要停留在有宝石的格子上。"
     }
     
     if checker.functionCallCount(forName: "turnLeft") == 0 {
-        hints[0] = "Remember, you need to use the new command, `turnLeft()`, to reach the gem."
+        hints[0] = "要到达宝石的格子，需要使用新命令： `turnLeft()`。"
     } else if checker.calledFunctions == oneTileMovement {
-        hints[0] = "Oops! Every `moveForward()` command moves your character forward only one tile. To move Byte forward two tiles, you need **two** `moveForward()` commands."
+        hints[0] = "啊哦！每一个 `moveForward()` 命令只会让 Byte 向前移动一格，要移动两格需要使用 **两次** `moveForward()` 命令。"
     } else if checker.calledFunctions == oneTileMovementNoCollect {
-        hints[0] = "Oops! Every `moveForward()` command moves Byte forward only one tile. To move Byte forward two tiles, you need **two** `moveForward()` commands. And don't forget to collect the gem!"
+        hints[0] = "啊哦！每一个 `moveForward()` 命令只会让 Byte 向前移动一格，要移动两格需要使用 **两次** `moveForward()` 命令。并且不要忘记收集宝石。"
     }
 
     

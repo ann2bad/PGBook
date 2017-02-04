@@ -6,19 +6,20 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Collect the gem, then toggle the switch.
+ **目标：** 收集宝石，并打开开关。
  
- So far, you’ve learned how to make Byte move around and collect a gem. In this puzzle, you’ll use another new command: `toggleSwitch()`.
+ 你已经学会了如何让 Byte 移动、转向并收集宝石。这一次，我们会再用到一个新的命令： `toggleSwitch()`。
  
- * callout(Switches):
+ * callout(开关):
  
-     A switch might be toggled **open** or **closed**.\
-     ![Closed switches are off and awaiting activation. Open switches are on and show a light inner core.](OpenClosewText@2x.png)
+     开关可以在 **open** 或者 **closed** 的状态互相转换\
+     状态为 **关** 的开关等待被激活\
+     状态为 **开** 的开关会射出一道光圈
 
  
- 1. steps: Enter the commands to move Byte to the gem, then collect it.
- 2. Continue entering commands to move Byte to the switch, then toggle it.
- 3. Run your code.
+ 1. 输入命令，让 Byte 收集宝石。
+ 2. 输入命令让 Byte 移动到开关位置，然后转换开关的状态。
+ 3. 运行代码。
 */
 //#-hidden-code
 playgroundPrologue()

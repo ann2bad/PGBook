@@ -5,14 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Adding a New Command</string>
+	<string>创建新命令</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>To reach the gem, Byte needs to move forward two tiles, then turn left, then move forward two more tiles.</string>
+			<string>Byte 想要得到宝石，首先需要向前走两格，然后向左转，最后再向前走两格。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

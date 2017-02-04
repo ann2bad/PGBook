@@ -6,20 +6,20 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Combine move and turn commands to collect the gem.
+ **目标：** 组合移动和转向命令来收集宝石。
  
- This puzzle is just like the last one, but this time Byte needs to turn left to reach the gem. You can use the [commands](glossary://command) from the previous puzzle as well as a new command: ``turnLeft()``.
+ 这次 Byte 只会向前走的话，无法收集宝石。所以我们需要使用一个新的 [命令](glossary://command) ： ``turnLeft()``。
  
- 1. steps: Plan the commands you need to make Byte move to the gem and collect it.
- 2. Enter your commands in the code area.
- 3. Run your code.
+ 1. 思考 Byte 将要如何走向宝石？
+ 2. 在代码区输入这些命令。
+ 3. 运行代码。
 */
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

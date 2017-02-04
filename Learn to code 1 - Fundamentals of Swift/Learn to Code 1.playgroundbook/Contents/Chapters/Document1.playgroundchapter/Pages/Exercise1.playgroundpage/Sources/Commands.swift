@@ -4,78 +4,78 @@
 //  Copyright (c) 2016 Apple Inc. All Rights Reserved.
 //
 /**
-Turns the character left.
-*/
+ 使角色向左转
+ */
 public func turnLeft() {
     actor.turnLeft()
 }
 
 
 /**
-Moves the character forward one tile. 
-*/
+ 使角色向前移动一格
+ */
 public func moveForward() {
     actor.moveForward()
 }
 
 /**
- Instructs the character to toggle a switch on the current tile.
+ 转换角色所在格子的开关状态
  */
 public func toggleSwitch() {
     actor.toggleSwitch()
 }
 
 /**
- Instructs the character to collect a gem on the current tile.
-*/
+ 收集角色所在格子上的宝石
+ */
 public func collectGem() {
     actor.collectGem()
 }
 
 /**
-Condition that checks if the character is on a tile with an open switch on it.
-*/
+ 检测角色所在格子上是否有打开的开关
+ */
 public var isOnOpenSwitch: Bool {
     return actor.isOnOpenSwitch
 }
 
 /**
-Condition that checks if the character is on a tile with a closed switch on it.
+ 检测角色所在格子上是否有关闭的开关
  */
 public var isOnClosedSwitch: Bool {
     return actor.isOnClosedSwitch
 }
 
 /**
-Condition that checks if the character is on a tile with a gem on it.
-*/
+ 检测角色所在格子上是否有宝石
+ */
 public var isOnGem: Bool {
     return actor.isOnGem
 }
 
 /**
-Condition that checks if the character is blocked from moving forward in the current direction.  
-*/
+ 检测角色的前进方向是否被阻挡
+ */
 public var isBlocked: Bool {
     return actor.isBlocked
 }
 
 /**
- Condition that checks if the character is blocked on the right.
+ 检测角色当前方向的右侧是否被阻挡
  */
 public var isBlockedRight: Bool {
     return actor.isBlockedRight
 }
 
 /**
- Condition that checks if the character is blocked on the left.
+ 检测角色当前方向的左侧是否被阻挡
  */
 public var isBlockedLeft: Bool {
     return actor.isBlockedLeft
 }
 
 /**
- Instructs the character to jump up or down onto the block the character is facing. If the current tile and the tile the character is facing are the same height, the character simply jumps forward one tile.
+ 使角色向前跳上或跳下一格，若面前的格子和当前格高度相同，则平跳。
  */
 public func jump() {
     actor.jump()

@@ -5,14 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Issuing Commands</string>
+	<string>命令入门</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>You need to enter some commands. First tap the area that says \&quot;Tap to enter code\&quot; then use `moveForward()` and `collectGem()` to solve the puzzle.</string>
+			<string>你需要输入一些命令。 首先点击 \&quot;点这里输入代码\&quot;区域，然后使用 `moveForward()` 与 `collectGem()` 命令来解决谜题。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

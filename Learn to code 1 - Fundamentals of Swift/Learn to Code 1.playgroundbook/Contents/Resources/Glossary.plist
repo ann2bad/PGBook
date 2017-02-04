@@ -96,10 +96,10 @@
 				<string>Commands</string>
 			</dict>
 		</dict>
-		<key>命令</key>
+		<key>command</key>
 		<dict>
 			<key>Definition</key>
-			<string>告诉应用应该执行某个行为的代码。
+			<string>命令：告诉应用应该执行某个行为的代码。
 </string>
 			<key>FirstUse</key>
 			<dict>

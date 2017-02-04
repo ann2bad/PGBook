@@ -61,14 +61,13 @@
 		<key>bug</key>
 		<dict>
 			<key>Definition</key>
-			<string>An error in code that prevents an application from running as expected. 
-</string>
+			<string>阻止程序按预期正确运行的代码错误。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Commands/Finding%20and%20Fixing%20Bugs</string>
+				<string>命令/调试</string>
 				<key>Title</key>
-				<string>Commands</string>
+				<string>命令</string>
 			</dict>
 		</dict>
 		<key>call</key>
@@ -152,13 +151,13 @@
 		<key>debug</key>
 		<dict>
 			<key>Definition</key>
-			<string>To find and fix errors in code that prevent an application from running correctly. </string>
+			<string>调试：找到并修复会阻止程序正确运行的错误代码。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Commands/Finding%20and%20Fixing%20Bugs</string>
+				<string>命令/调试</string>
 				<key>Title</key>
-				<string>Commands</string>
+				<string>命令</string>
 			</dict>
 		</dict>
 		<key>declaration</key>

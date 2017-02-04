@@ -494,7 +494,7 @@
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>命令/介绍</string>
+				<string>命令/简介</string>
 				<key>Title</key>
 				<string>命令</string>
 			</dict>

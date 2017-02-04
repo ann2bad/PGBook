@@ -5,15 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Bug Squash Practice</string>
+	<string>调试练习</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Run your code to see where Byte first makes a mistake. This is how you find the first line of code you need to change.
-            </string>
+			<string>想知道代码哪里出现问题？运行代码看看 Byte 在哪出错了吧。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

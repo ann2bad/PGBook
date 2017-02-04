@@ -96,17 +96,17 @@
 				<string>Commands</string>
 			</dict>
 		</dict>
-		<key>command</key>
+		<key>命令</key>
 		<dict>
 			<key>Definition</key>
-			<string>Code that tells an application to perform a specific action. 
+			<string>告诉应用应该执行某个行为的代码。
 </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Commands/Issuing%20Commands</string>
+				<string>命令/命令入门</string>
 				<key>Title</key>
-				<string>Commands</string>
+				<string>命令</string>
 			</dict>
 		</dict>
 		<key>comparison operator</key>
@@ -490,13 +490,13 @@
 		<key>Swift</key>
 		<dict>
 			<key>Definition</key>
-			<string>Apple’s programming language, used for writing apps for iPhone, iPad, Mac, Apple Watch, and Apple TV. </string>
+			<string>苹果公司开发的编程语言，可以用其开发 iPhone, iPad, Mac, Apple Watch, 以及 Apple TV 各种平台上的应用。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Commands/Introduction</string>
+				<string>命令/介绍</string>
 				<key>Title</key>
-				<string>Commands</string>
+				<string>命令</string>
 			</dict>
 		</dict>
 		<key>syntax</key>

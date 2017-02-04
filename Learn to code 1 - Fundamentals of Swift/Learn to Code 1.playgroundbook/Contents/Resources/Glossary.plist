@@ -85,14 +85,13 @@
 		<key>coding</key>
 		<dict>
 			<key>Definition</key>
-			<string>The act of composing commands, code structures, and algorithms to create a computer program.
-</string>
+			<string>编程：通过组合使用命令、数据结构、算法来创建计算机程序的行为。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Commands/Introduction</string>
+				<string>命令/简介</string>
 				<key>Title</key>
-				<string>Commands</string>
+				<string>命令</string>
 			</dict>
 		</dict>
 		<key>command</key>

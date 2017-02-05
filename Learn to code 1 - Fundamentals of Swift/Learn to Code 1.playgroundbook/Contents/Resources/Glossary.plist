@@ -73,13 +73,13 @@
 		<key>call</key>
 		<dict>
 			<key>Definition</key>
-			<string>To tell a program to run a function. For example, calling the `moveForward()` function in your code tells the program to perform the actions defined in that function.</string>
+			<string>调用：告诉程序要执行某个函数。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Creating%20a%20New%20Function</string>
+				<string>函数/创建新函数</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>coding</key>
@@ -115,14 +115,13 @@
 		<key>composition</key>
 		<dict>
 			<key>Definition</key>
-			<string>The process of combining small parts of a program to solve a larger problem. 
-</string>
+			<string>组合：将多个小组件结合起来解决更大的问题的过程。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Composing%20a%20New%20Behavior</string>
+				<string>函数/构思一系列行为</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>compound assignment operator</key>
@@ -167,25 +166,25 @@
 		<key>decomposition</key>
 		<dict>
 			<key>Definition</key>
-			<string>The process of breaking a large problem into smaller, more manageable pieces. </string>
+			<string>分解：将一个大问题拆分成许多小问题的过程。 </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Nesting%20Patterns</string>
+				<string>函数/内部模式</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>define</key>
 		<dict>
 			<key>Definition</key>
-			<string>To provide the explicit value or behavior of a newly created piece of code, such as a function, variable, or custom type. For example, you define a function by providing a set of commands within the function to tell it what to do.</string>
+			<string>定义：显式的为一个新创建的函数、变量或自定义类型提供一个值或行为。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Creating%20a%20New%20Function</string>
+				<string>函数/创建新函数</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>dot notation</key>
@@ -237,13 +236,13 @@
 		<key>function</key>
 		<dict>
 			<key>Definition</key>
-			<string>A named set of commands that can be run whenever needed.</string>
+			<string>函数：被命名的一组命令的集合，以便在需要的时候调用。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Creating%20a%20New%20Function</string>
+				<string>函数/创建新函数</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>if block</key>
@@ -422,14 +421,13 @@
 		<key>pattern</key>
 		<dict>
 			<key>Definition</key>
-			<string>A repeating set of circumstances or data. 
-</string>
+			<string>模式：可重复利用的环境和数据。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Collect,%20Toggle,%20Repeat</string>
+				<string>函数/收集，转换，重复</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>property</key>
@@ -453,14 +451,13 @@
 		<key>reusability</key>
 		<dict>
 			<key>Definition</key>
-			<string>A characteristic of code that allows it to be used in different situations within a program. 
-</string>
+			<string>可重用性：可以在程序内多次使用的代码的特点。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Functions/Across%20the%20Board</string>
+				<string>函数/探索整个地图</string>
 				<key>Title</key>
-				<string>Functions</string>
+				<string>函数</string>
 			</dict>
 		</dict>
 		<key>state</key>

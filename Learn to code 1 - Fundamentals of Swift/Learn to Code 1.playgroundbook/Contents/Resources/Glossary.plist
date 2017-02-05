@@ -224,7 +224,7 @@
 		<key>for loop</key>
 		<dict>
 			<key>Definition</key>
-			<string>A block of repeated code that runs a certain number of times. </string>
+			<string>for 循环：重复执行固定次数的代码段。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>

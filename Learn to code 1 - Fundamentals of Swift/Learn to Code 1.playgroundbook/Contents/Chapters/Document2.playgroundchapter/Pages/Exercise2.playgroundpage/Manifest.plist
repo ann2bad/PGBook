@@ -5,14 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Creating a New Function</string>
+	<string>创建新函数</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Remember, `turnRight()` is a combination of three left turns.</string>
+			<string>还记得吗？ `turnRight()` 是组合了三次左转的命令。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

@@ -11,12 +11,12 @@ func evaluateContents(_ contents: String) -> (success: String, hints: [String]) 
     let checker = ContentsChecker(contents: contents)
     
     var hints = [
-        "Remember, `turnRight()` is a combination of three left turns.",
-        "Use `turnRight()` any time you want to make a right turn.",
+        "还记得吗？ `turnRight()` 是组合了三次左转的命令。",
+        "在任何需要右转的时候使用 `turnRight()` 命令。",
         
         ]
     
-    var success = "### You just wrote your first [function](glossary://function)! \nYou can now use functions to create new abilities. To create a new [function](glossary://function), give it a name, [define](glossary://define) it by giving it a set of commands. Then [call](glossary://call) the function to make it run. \n\n[**Next Page**](@next)"
+    var success = "### 现在你已经写出了第一个 [函数](glossary://function)！ \n你也可以使用函数为角色创建新的技能，要创建一个新的 [函数](glossary://function)，首先要想一个名字，然后用一组命令 [定义](glossary://define) 它的行为，最后在需要的地方 [调用](glossary://call) 它。 \n\n[**下一关**](@next)"
     
     let expectedContents = [
         "turnLeft",
@@ -33,23 +33,23 @@ func evaluateContents(_ contents: String) -> (success: String, hints: [String]) 
     ]
     
     if !checker.function("turnRight", matchesCalls: expectedContents) {
-        hints[0] = "First you need to [define](glossary://define) `turnRight()` correctly. To do this, tap within the curly braces of `turnRight()` and add three `turnLeft()` commands. Then use `turnRight()` to complete the puzzle."
-        success = "### You're on your way! \nYou were able to solve the puzzle, but you didn't correctly [define](glossary://define) `turnRight()`! To improve your coding skills, go back and define `turnRight()` using three `turnLeft()` commands, then solve the puzzle again."
+        hints[0] = "首先你需要正确 [定义](glossary://define) `turnRight()`：在 `turnRight()` 的花括号内点击，然后输入三个 `turnLeft()` 命令。试着使用 `turnRight()` 解决谜题吧。"
+        success = "### 做的不错！ \n你已经解决了谜题，但是没有正确 [定义](glossary://define) `turnRight()` 函数！试着回头用三个 `turnLeft()` 命令重新定义 `turnRight()` 函数，然后再正确解决问题！"
     } else if checker.functionCallCount(forName: "turnLeft") >= 4 {
-        hints[0] = "After you define `turnRight()`you no longer have to call `turnLeft()` three times for each right turn. Instead, call `turnRight()` and three `turnLeft()` commands will run."
+        hints[0] = "在定义了 `turnRight()` 函数之后，你不再需要连续用三个 `turnLeft()` 命令向右转了。直接调用 `turnRight()` 函数，就相当于调用了其内部的三个 `turnLeft()` 命令。"
     } else if world.commandQueue.closedAnOpenSwitch() {
-        hints[0] = "Remember, you want all the switches toggled open! If a switch is already open, just leave it as it is."
+        hints[0] = "我们的任务是打开所有的开关！对于已经打开的开关，就不要去管它了。"
     }
     
     if checker.function("turnRight", matchesCalls: expectedContents) && checker.functionCallCount(forName: "turnRight") < 1 {
-        success = "You [defined](glossary://define) your `turnRight()` function correctly, but you never used it to solve the puzzle! Once you have defined `turnRight()`, use it each time you need your character to turn right."
+        success = "你确实正确 [定义](glossary://define) 了 `turnRight()` 函数，但是你解决问题的时候并没有用到它。定义 `turnRight()` 函数后，在每次你的角色需要右转的时候使用。"
     }
     
     if checker.function("turnRight", matchesCalls: turnRightMoveForward) {
-        success = "### You just wrote your first [function](glossary://function)! \nIn addition to turning right, however, your function also moves your character forward one tile. While this might work fine for this puzzle, you might not always want to move forward when you call `turnRight()`. Try going back and changing the `turnRight()` function so that the only thing it does is turn your character to the right."
+        success = "### 现在你已经写出了第一个 [函数](glossary://function)！ \n但是除了右转，你的函数还让角色向前移动了一格。当然它可以很好的解决眼前的问题，但是以后每次使用 `turnRight()` 的时候可能并不需要再向前移动。回去修改你的 `turnRight()` 函数，使它仅仅做让角色右转这一件事情。"
     }
     if checker.didUseForLoop {
-        success = "### You just wrote your first [function](glossary://function)! \nNice work using a [`for` loop](glossary://for%20loop) to write `turnRight`, you must really know your stuff! You can now use functions to create new abilities. To create a new [function](glossary://function), give it a name, [define](glossary://define) it by giving it a set of commands. Then [call](glossary://call) the function to make it run. \n\n[**Next Page**](@next)"
+        success = "### 现在你已经写出了第一个 [函数](glossary://function)！ \n更棒的是在写 `turnRight()` 函数时还用到了 [`for`循环](glossary://for%20loop)。你也可以使用函数为角色创建新的技能，要创建一个新的 [函数](glossary://function)，首先要想一个名字，然后用一组命令 [定义](glossary://define) 它的行为，最后在需要的地方 [调用](glossary://call) 它。 \n\n[**下一关**](@next)"
     }
     return (success, hints)
 }

@@ -6,17 +6,17 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Define and use your own function to turn right.
+ **目标：** 定义并使用我们自己向右转的函数。
  
-In the previous puzzle, you turned right only once, so using three left turns wasn't a problem. But what if you need to turn right more than once? It would be more efficient to put all those left turns into a ``turnRight()`` command that you run multiple times.
+在上一关，我们只需要向右转一次，所以直接使用三次左转并没有什么大问题。但是如果我们需要多次向右转怎么办呢？比较高效率的办法是将三个左转的命令放入一个名为 ``turnRight()`` 的命令里，然后再需要的时候调用。
 
-Commands like ``turnRight()`` are actually [functions](glossary://function) that perform a body of work. You've already been using functions—every [command](glossary://command) you've used to this point has actually been a function that we've provided for you.
+像 ``turnRight()`` 这样的命令实际上是一个 [函数](glossary://function)。在之前用到的 [命令](glossary://command) 实际上也都是系统提供给我们的函数。
  
-To [define](glossary://define) a function, enter a set of commands between the `{` and  `}` curly braces to give it its behavior.
+[定义](glossary://define) 一个函数，在花括号 `{` 和  `}` 中间输入一组命令。
 
- 1. steps: Tap inside the function body (between the `{` and `}` curly braces).
- 2. Enter three `turnLeft()` commands. 
- 3. Beneath the function, use existing commands along with `turnRight()` to toggle open the closed switch.
+ 1. 在函数体 （在花括号 `{` 和 `}` 中间的位置）内点击。
+ 2. 输入三个 `turnLeft()` 命令。
+ 3. 在这个函数下面，结合使用 `turnRight()` 和之前的命令来打开开关。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -29,7 +29,7 @@ func turnRight() {
     
     //#-end-editable-code
 }
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

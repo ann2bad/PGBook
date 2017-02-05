@@ -25,7 +25,7 @@ playgroundPrologue()
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch())
 //#-end-hidden-code
 func turnRight() {
-    //#-editable-code Add commands to your function
+    //#-editable-code 为你的函数添加命令
     
     //#-end-editable-code
 }

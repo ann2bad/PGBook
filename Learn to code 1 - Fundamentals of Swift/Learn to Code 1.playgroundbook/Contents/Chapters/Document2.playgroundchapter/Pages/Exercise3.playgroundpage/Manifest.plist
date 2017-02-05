@@ -5,15 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Nesting Patterns</string>
+	<string>内部模式</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>First, define your `solveStair()` function to walk up a stairway, collect a gem, turn around, and move back to the center.
-            </string>
+			<string>首先，定义一个包括以下任务的 `solveStair()` 函数：让角色上楼梯，然后收集宝石，转向，最终回到中心位置。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

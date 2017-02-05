@@ -6,22 +6,22 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use composition to turn to the right.
+ **目标：** 组合使用命令来向右转。
  
- Have you noticed there’s no ``turnRight()`` command available to you? If your character needs to turn right to reach a gem, how can you make that happen?
+ 是否注意到你现在并没有 ``turnRight()`` 命令可用？如果你的角色需要向右转才能收集到宝石，要怎么办呢？
  
- You sometimes have to solve [coding](glossary://coding) problems by combining existing commands to create a new behavior. This process is called [composition](glossary://composition).
+ 有时候 [编程](glossary://coding) 问题就是结合现有的命令创造新的行为，这个过程称之为 [组合](glossary://composition)。
  
- 1. steps: Figure out how to turn to the right using only the commands you've used before.
- 3. Use composition to turn your character to the right when needed.
- 2. Enter the commands to collect the gem.
+ 1. 想想如何仅使用已学过的命令来达到向右转的效果？
+ 3. 当你的角色需要向右转时，使用这些命令的组合。
+ 2. 输入命令收集宝石吧。
 */
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

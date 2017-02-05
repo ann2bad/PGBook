@@ -5,14 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Collect, Toggle, Repeat</string>
+	<string>收集，转换，重复</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Your [function](glossary://function) should first collect a gem, then move forward, then toggle a switch.</string>
+			<string>你的 [函数](glossary://function) 首先要收集宝石，然后前进，最后转换开关。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

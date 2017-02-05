@@ -6,13 +6,13 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** [Define](glossary://define) a function for a repeating pattern.
+ **挑战：** 为一组重复的行为 [定义](glossary://define) 函数。
  
- In this challenge, there are several gems to collect, and each gem is located next to a switch.
+ 在这个挑战里，有若干宝石需要收集，而且每个宝石后面都有一个开关。
  
- Instead of repeating the same pattern of commands you used in previous puzzles, you can write a new [function](glossary://function) that includes existing commands to handle each gem-and-switch pair.
+ 从前解决问题的时候，总是会有一些重复的一组命令，试着用已有命令写一个新 [函数](glossary://function) 来解决每个宝石后面都有一个开关的问题。
  
-You can name your function anything you like in this challenge. After you've named and defined your function, [call](glossary://call) it by entering its name, just like you've done with all the other functions you've used.
+你可以自己命名这个函数，然后在定义它之后用这个名字 [调用](glossary://call)。就像你之前使用过的那些函数一样。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -21,11 +21,11 @@ playgroundPrologue()
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight())
 func /*#-editable-code yourFuncName*/<#funcName#>/*#-end-editable-code*/() {
-    //#-editable-code Add commands to your function
+    //#-editable-code 为你的函数添加命令
     
     //#-end-editable-code   
 }
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

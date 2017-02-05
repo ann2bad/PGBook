@@ -5,14 +5,14 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Across the Board</string>
+	<string>探索整个地图</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Recognizing the repeating patterns in the puzzle is key.</string>
+			<string>找出重复的行为是高效解决问题的关键。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

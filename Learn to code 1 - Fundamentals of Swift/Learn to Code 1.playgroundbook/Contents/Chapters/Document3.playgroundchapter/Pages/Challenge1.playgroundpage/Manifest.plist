@@ -12,8 +12,7 @@
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Remember, the pattern in the puzzle repeats a number of times.
-            </string>
+			<string>仔细观察，这个谜题中存在一个可以重复几次的模式。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

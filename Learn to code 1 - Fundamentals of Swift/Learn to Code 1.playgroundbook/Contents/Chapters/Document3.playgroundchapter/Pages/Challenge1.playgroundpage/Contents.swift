@@ -6,13 +6,13 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Use a for loop to repeat a rotating pattern.
+ **挑战：** 使用 for 循环解决问题。
  
-In this challenge, you’ll practice finding repeating patterns. You must activate four switches, moving to each switch from the central point.
+在这个挑战中，你将练习到如何寻找可以重复的模式。你必须激活四个开关，每次都要从中心点走到其中一个开关。
 
-Break down the puzzle by figuring out the sequence of [commands](glossary://command) needed for your character to activate the first switch and return to the central point. This is the sequence that repeats, so put the code inside the curly braces.
+将问题简化一下：指出你的角色去激活第一个开关然后返回原点需要的 [命令](glossary://command) 序列，这个序列需要被重复执行，所以要将这些代码包括在花括号中。
 
-Can you figure out which extra repeating command will make the repeating [pattern](glossary://pattern) work for all the switches?
+试试看能不能再找出更好的解决办法？
 
 */
 //#-code-completion(everything, hide)
@@ -21,7 +21,7 @@ Can you figure out which extra repeating command will make the repeating [patter
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 

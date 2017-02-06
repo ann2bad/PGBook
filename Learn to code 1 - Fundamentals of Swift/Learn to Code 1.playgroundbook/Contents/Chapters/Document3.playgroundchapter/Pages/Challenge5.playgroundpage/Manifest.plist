@@ -12,8 +12,7 @@
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Notice how each set of four groups of gems is exactly the same? Write the code for one set so that it works for all of the other sets.
-            </string>
+			<string>看看四组宝石有什么相似之处？解决其中一组的代码是否也能解决其他的？</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

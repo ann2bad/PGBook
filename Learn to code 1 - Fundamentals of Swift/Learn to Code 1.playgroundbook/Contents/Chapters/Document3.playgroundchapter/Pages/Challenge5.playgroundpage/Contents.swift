@@ -6,11 +6,11 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Practice pattern finding, decomposition, functions, and for loops.
+ **挑战：** 综合练习寻找模式，任务分解，函数，和 for 循环。
  
-Don't be intimidated by this challenge; you can do it!
+不要被这个挑战吓住，你可以的！
 
-Start by focusing on the group of gems and the portal closest to your character. Can you figure out the [pattern](glossary://pattern) to collect the gems and move to the next location?
+首先把焦点放在离你的角色最近的一组宝石和传送门上，发现收集宝石并移动到传送门的 [模式](glossary://pattern) 了吗？
 */
 //#-hidden-code
 playgroundPrologue()
@@ -18,7 +18,7 @@ playgroundPrologue()
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), func, for)
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

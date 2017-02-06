@@ -9,27 +9,27 @@ import PlaygroundSupport
 public func assessmentPoint() -> AssessmentResults {
     let checker = ContentsChecker(contents: PlaygroundPage.current.text)
     
-    var success = "### Nice work! Loops  simplify the repetition of set of commands. In this exercise, a loop was provided for you, but in the next exercise, you'll learn how to add a `for` loop to your code any time you want. \n\n[**Next Page**](@next)"
+    var success = "### 干得好！可以利用循环来重复运行一些指令。在这个练习中，循环已经提供给你了。但是在下一个练习，你将学习如何在你的代码中添加 `for` 循环。 \n\n[**下一关**](@next)"
     
     var hints = [
-        "Can you figure out the set of commands you need to repeat?",
-        "The basic sequence is to move forward, collect the gem, then move to the portal.",
-        "There are five rows, so you'll need your loop to run five times."
+        "你能指出有哪些命令需要重复执行吗？",
+        "基本序列应该是：向前移动，收集宝石，然后走向传送门。",
+        "这里一共有五行，所以你应该让循环重复五次。"
         ]
 
     
     
     if checker.didUseWhileLoop {
-        success = "### Incredible! \nYour use of a while loop here is very impressive! \n\n[Next Page](@next)"
+        success = "### 不可思议！ \n在这里使用 while 循环也是很不错的方法。 \n\n[下一关](@next)"
 
         
     } else if checker.didUseForLoop {
-        success = "### Nice work!  \nLoops simplify the repetition of a set of commands. In this exercise, a loop was provided for you, but in the next exercise you'll learn how to add a `for` loop to your code any time you want. \n\n[**Next Page**](@next)"
-        hints[0] = "The basic sequence is to move forward, collect the gem, then move to the portal."
-        hints[1] = "Move forward twice, collect the gem, then move forward again."
+        success = "### 干得好！可以利用循环来重复运行一些指令。在这个练习中，循环已经提供给你了。但是在下一个练习，你将学习如何在你的代码中添加 `for` 循环。 \n\n[**下一关**](@next)"
+        hints[0] = "基本序列应该是：向前移动，收集宝石，然后走向传送门。"
+        hints[1] = "向前移动两次，然后收集宝石，最后再向前移动。"
     } else if !checker.didUseForLoop {
-        success = "### Don't forget to use a loop! \nYour solution will be much simpler if you use a loop. Give it a shot."
-        hints[0] = "First tap `number` and specify the number of times you want your loop to run. Then add the commands you want to repeat inside the `for` loop."
+        success = "### 不要忘了使用循环啊！ \n使用循环能使你的方案更加简短。"
+        hints[0] = "首先点 `number` 输入你想循环的次数，然后在 `for` 循环内部加入你想重复执行的命令。"
     }
     
     

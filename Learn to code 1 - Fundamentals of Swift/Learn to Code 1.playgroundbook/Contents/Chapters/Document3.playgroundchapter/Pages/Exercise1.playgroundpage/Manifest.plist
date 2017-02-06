@@ -12,8 +12,7 @@
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>Can you figure out the set of commands that you need to repeat?
-            </string>
+			<string>你能指出有哪些命令需要重复执行吗？</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

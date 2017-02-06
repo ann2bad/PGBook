@@ -6,13 +6,13 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use a for loop to repeat a sequence of commands.
+ **目标：** 使用 for 循环重复执行一系列命令。
  
- In this puzzle, you must collect four gems that are located in the same relative locations around a square. You’ll create a [loop](glossary://loop) that repeats the code below for each of the sides to solve the entire puzzle.
+ 在本关中，你要收集的四颗宝石位于正方形四条边的固定位置上。为了解决问题，你要创建一个 [循环](glossary://loop) ，每次循环解决一条边上的问题。
  
- 1. steps: Drag a `for` loop from the code library, then drop it above the existing code.
- 2. Tap the bottom curly brace to select the loop.
- 3. Tap and hold that curly brace, then drag it downward to pull the existing code into the loop.
+ 1. 从代码库将 `for` 循环拖拽到代码编辑区。
+ 2. 点击下面的花括号来选择循环。
+ 3. 拖拽那个花括号也可以选取已有的代码到循环中。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -20,7 +20,7 @@ playgroundPrologue()
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, for, moveForward(), collectGem(), turnRight())
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 moveForward()
 collectGem()

@@ -6,11 +6,11 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Decompose repeating patterns into functions and for loops.
+ **挑战：** 将重复的模式分解为函数和 for 循环。
  
- You’ve learned about the basics of [coding](glossary://coding), and you’ve solved a lot of puzzles with your character. Now that you know about [commands](glossary://command), [functions](glossary://function), and [`for` loops](glossary://for%20loop), you’re ready to combine your skills for this challenge!
+ 你已经学会了基本的 [编程](glossary://coding) 方法，你和你的角色也一起解决了许多的谜题。目前为止已经学会了 [命令](glossary://command)， [函数](glossary://function)， 还有 [`for` 循环](glossary://for%20loop)，准备好组合使用你的这些技能通过这个挑战！
  
- There are three stairways in the puzzle world, and each shares the same set of tasks to perform. Can you figure out the [pattern](glossary://pattern) for the tasks and write the code?
+ 在地图上可以看到三条长长的楼梯。对于整个任务来讲，每条楼梯都可以用同样的方法来解决，这也就是问题中重复的 [模式](glossary://pattern)。剩下的只是写出代码了。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -18,7 +18,7 @@ playgroundPrologue()
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), func, for)
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

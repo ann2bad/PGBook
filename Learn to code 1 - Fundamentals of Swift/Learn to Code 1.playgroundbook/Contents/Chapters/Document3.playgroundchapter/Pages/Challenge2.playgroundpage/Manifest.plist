@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>Content</key>
-			<string>First look at the puzzle. The pattern might be a bit tougher to spot at first. Try solving one part of the puzzle before creating your loop.</string>
+			<string>首先仔细观察问题，最开始重复模式可能不明显。尝试先解决一个小部分，然后再创建循环。</string>
 		</dict>
 	</array>
 	<key>LiveViewMode</key>

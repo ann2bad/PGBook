@@ -6,15 +6,15 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Decompose a solution across multiple functions.
+ **目标：** 通过多个函数将复杂问题分解。
  
-As you've just learned, it can be very useful to define a function that accomplishes a small task, then [call](glossary://call) that function within another function to accomplish an even bigger task.
+正如之前所学的，定义一个能解决小问题的函数是很有用的。通过在其他函数内 [调用](glossary://call) 来解决更大的问题。
  
-This practice makes your code more readable, because you can name a function based on its purpose; for example, `turnAround()`. It also simplifies the process of writing code, because after you've written a function to perform a bigger task, you no longer have to think about the individual commands.
+你可以根据函数的功能给其命名，可以使代码更加可读。例如： `turnAround()`。这样做也可以加快写代码的效率，因为要为一个大任务定义一个函数的时候，不用再思考小任务的细节，直接调用就好了。
  
- 1. steps: Run the code to see what happens when `solveRow()` is called.
- 2. Tweak the code inside `solveRow()` so that it solves a bigger chunk of the puzzle.
- 3. Call `solveRow()` along with other commands to solve the puzzle.
+ 1. 运行代码，看看调用 `solveRow()` 的时候会发生什么？
+ 2. 调整 `solveRow()` 的代码，使得其可以解决更大的问题。
+ 3. 结合 `solveRow()` 与其他命令完成本关。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -23,7 +23,7 @@ playgroundPrologue()
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), func)
 func collectGemTurnAround() {
-    //#-editable-code Tap to enter code
+    //#-editable-code 点这里输入代码
     moveForward()
     moveForward()
     collectGem()
@@ -35,12 +35,12 @@ func collectGemTurnAround() {
 }
 
 func solveRow() {
-    //#-editable-code Tap to enter code
+    //#-editable-code 点这里输入代码
     collectGemTurnAround()
     
     //#-end-editable-code
 }
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 solveRow()
 //#-end-editable-code
 //#-hidden-code

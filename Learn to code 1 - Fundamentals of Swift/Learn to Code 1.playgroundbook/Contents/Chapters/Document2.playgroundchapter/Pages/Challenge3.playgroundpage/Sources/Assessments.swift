@@ -3,12 +3,12 @@
 //
 //  Copyright (c) 2016 Apple Inc. All Rights Reserved.
 //
-let success = "### You're really getting this! \nBy using [decomposition](glossary://decomposition) to break down a larger problem into smaller, more manageable parts, you're making your code more readable and reusable. \n\n[**Next Page**](@next)"
+let success = "### 学会了吗？ \n将一个复杂问题 [分解](glossary://decomposition) 成若干的小问题然后逐个击破，你的代码会变得更可读和更可用。 \n\n[**下一关**](@next)"
 let hints = [
-    "Use the function `collectGemTurnAround()`, possibly along with other commands, to [define](glossary://define) `solveRow()`.",
-    "There are many ways to approach solving this puzzle. Figure out which one you'd like to try, and go for it!",
-    "One way to [define](glossary://define) `solveRow()` is to [call](glossary://call) `collectGemTurnAround()` twice.",
-    "This puzzle is a **challenge** and has no provided solution. Strengthen your coding skills by creating your own approach to solving it."
+    "使用 `collectGemTurnAround()` 函数来 [定义](glossary://define) `solveRow()`函数。",
+    "解决问题的方法有很多，选一个你喜欢的，然后尝试。",
+    "有一个办法：在 [定义](glossary://define) `solveRow()` 时，[调用](glossary://call) 两次 `collectGemTurnAround()`。",
+    "这是一个 **挑战关**。 通过挑战是一次测试你编程技能的好机会。因为挑战中可能会有很多种不同的方式解决问题，你要做的，就是尽可能找到最好的方案。"
 ]
 
 let solution: String? = nil

@@ -6,11 +6,11 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** [Decompose](glossary://decomposition) patterns and declare your own functions.
+ **挑战：** 将复杂任务 [分解](glossary://decomposition) ，然后定义你的函数。
  
- In this last challenge, start by finding a small pattern of commands, and declare a function that [calls](glossary://call) them. Use that function to start solving parts of the puzzle.
+ 这是最后一个挑战，先找到一组小的模式，然后定义一个实现它的函数。使用这个函数来解决一部分问题。
 
- As you find more complex parts of the puzzle, define a new function that reuses what’s in your first function. Then call your second function to solve those parts of the puzzle.
+ 然后试着找到大一些的模式，用之前的函数定义一个新的函数，然后调用新函数来解决更大的一部分问题。
 */
 //#-hidden-code
 playgroundPrologue()
@@ -18,7 +18,7 @@ playgroundPrologue()
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), func)
-//#-editable-code Tap to enter code
+//#-editable-code 点这里输入代码
 
 //#-end-editable-code
 //#-hidden-code

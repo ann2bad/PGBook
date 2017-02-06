@@ -7,7 +7,7 @@
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Logical Operators</string>
+	<string>逻辑运算</string>
 	<key>Pages</key>
 	<array>
 		<string>Introduction.cutscenepage</string>

@@ -7,55 +7,55 @@
 		<key>algorithm</key>
 		<dict>
 			<key>Definition</key>
-			<string>A step-by-step set of instructions or rules for solving a problem. For example, a list of steps used to make a cup of tea can be considered an algorithm.</string>
+			<string>算法：一系列用来解决问题的指令或规则。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Algorithms/The%20Right-Hand%20Rule</string>
+				<string>算法/右手原则</string>
 				<key>Title</key>
-				<string>Algorithms</string>
+				<string>算法</string>
 			</dict>
 		</dict>
 		<key>arithmetic operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol, such as `+`, `-`, `*`, or `/`, that performs a basic mathematical operation on one or more numbers. For example,  `42 / 7` and `17 - 5` use arithmetic operators.</string>
+			<string>算术运算符：类似于 `+`， `-`， `*`， 或 `/`等用来进行基本数学计算的运算符。</string>
 		</dict>
 		<key>argument</key>
 		<dict>
 			<key>Definition</key>
-			<string>An input value passed into a function to customize its behavior. For example, in the function call `move(distance: 3)`, `3` is an argument that specifies how many spaces to move.</string>
+			<string>参数（实际参数）：向一个函数传入的一个或一组实际的值。</string>
 		</dict>
 		<key>array</key>
 		<dict>
 			<key>Definition</key>
-			<string>A collection that stores an ordered list of items of the same type. The same item can appear multiple times in different positions. For example, `highScores = [37, 34, 29, 29, 26]` is an array of integers.</string>
+			<string>数组：用来存储一组有序的相同类型数据的集合类型，其中每个元素可以出现多次。</string>
 		</dict>
 		<key>array out of bounds error</key>
 		<dict>
 			<key>Definition</key>
-			<string>An error caused by trying to access an array using an index that’s outside of that array&apos;s boundaries. For example, the index `2` is outside of the boundaries of the following array: `[17, 42]`.</string>
+			<string>数组越界错误：当尝试用超过数组元素数量的索引访问数组时，便会产生数组越界错误。</string>
 		</dict>
 		<key>assignment</key>
 		<dict>
 			<key>Definition</key>
-			<string>An action that sets the value of a variable or constant.</string>
+			<string>赋值：对一个常量或变量设置一个值的过程。</string>
 		</dict>
 		<key>assignment operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>The `=` symbol used to set the value of a variable. For example, `greeting = “hello”` sets the value of `greeting` to `“hello”`.</string>
+			<string>赋值运算符：用 `=` 来给一个变量赋值。</string>
 		</dict>
 		<key>Boolean</key>
 		<dict>
 			<key>Definition</key>
-			<string>A type that has a value of either `true` or `false`. For example, `9 &lt; 7` returns a Boolean value of `false` because `9` is not less than `7`.</string>
+			<string>布尔：一种值要么是 `true` 要么是 `false` 的数据类型。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Conditional%20Climb</string>
+				<string>条件/用条件爬山</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>bug</key>
@@ -97,8 +97,7 @@
 		<key>command</key>
 		<dict>
 			<key>Definition</key>
-			<string>命令：告诉应用应该执行某个行为的代码。
-</string>
+			<string>命令：告诉应用应该执行某个行为的代码。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
@@ -110,7 +109,7 @@
 		<key>comparison operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol, such as `==`, `!=`, `&lt;`, `&gt;`, `&lt;=`, or `&gt;=`, used to compare two values. The comparison operator can be used in a condition of an `if` statement or `while` loop to return a Boolean value indicating whether a comparison is `true`. For example, `6 &gt; 8` compares `6` with `8` and returns `false`.</string>
+			<string>比较运算符：类似于 `==`， `!=`， `&lt;`， `&gt;`， `&lt;=`，或者 `&gt;=`，用来比较两个值大小的运算符。比较运算符常被用于 `if` 语句或 `while` 循环中，其结果是一个布尔值。</string>
 		</dict>
 		<key>composition</key>
 		<dict>
@@ -127,24 +126,24 @@
 		<key>compound assignment operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>An operator that combines assignment (setting the value of a variable) with another operation, such as addition or subtraction. For example, if the current value of `a` is `1`, using `a += 3` adds `3` to `1` and assigns the result to `a`, so that the value of `a` is now `4`.</string>
+			<string>组合赋值运算符：组合了某个运算（比如加法、减法等）和赋值的运算符。</string>
 		</dict>
 		<key>conditional code</key>
 		<dict>
 			<key>Definition</key>
-			<string>Code that runs only when specific conditions are met. For example, `if` statements and `while` loops contain conditional code that runs only if or while a condition is `true`. </string>
+			<string>条件代码：只在满足特定条件才运行的代码。`if` 语句和 `while` 循环都包含条件代码，只有当条件判断为 `true` 的时候才运行。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Introduction</string>
+				<string>条件/简介</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>constant</key>
 		<dict>
 			<key>Definition</key>
-			<string>A named container that stores a value that can’t be changed.</string>
+			<string>常量：一旦赋值就无法再改变的量。</string>
 		</dict>
 		<key>debug</key>
 		<dict>
@@ -161,7 +160,7 @@
 		<key>declaration</key>
 		<dict>
 			<key>Definition</key>
-			<string>A piece of code that creates something new in your application, such as a function, variable, or custom type. For example, `let planet = “Earth”` declares a new constant, `planet`, and gives it a value of `&quot;Earth&quot;`.</string>
+			<string>声明：表示将要创建一个类似于函数、变量、或自定义类型的代码。</string>
 		</dict>
 		<key>decomposition</key>
 		<dict>
@@ -190,36 +189,36 @@
 		<key>dot notation</key>
 		<dict>
 			<key>Definition</key>
-			<string>A form of syntax used to access the properties or call the methods of an instance. For example, `expert.toggleSwitch()` calls the `toggleSwitch()` method on the `expert` instance. </string>
+			<string>点符号：访问一个实例的属性或方法的语法格式。</string>
 		</dict>
 		<key>else block</key>
 		<dict>
 			<key>Definition</key>
-			<string>The last block of code in an `if` statement. The `else` block runs if all conditions in the `if` statement are `false`. </string>
+			<string>else 块：在 `if` 语句中，若之前所有条件都不满足，则运行 `else` 块中的内容。 </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Introduction</string>
+				<string>条件/简介</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>else if block</key>
 		<dict>
 			<key>Definition</key>
-			<string>A block of code in an `if` statement, used to check a condition that isn’t checked by the `if` block or any other `else if` blocks.</string>
+			<string>else if 块：在 `if` 语句中，之前的条件都不满足，则会检查这个 else if 的条件，在满足条件后运行 `else if` 块中的内容。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Using%20else%20if</string>
+				<string>条件/使用%20else</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>enumeration</key>
 		<dict>
 			<key>Definition</key>
-			<string>A type that defines a set of unique, but related, values called *enumeration cases*. For example, a `Direction` enumeration defines cases for each cardinal direction: `north`, `south`, `east`, and `west`. When assigning an enumeration to a variable or constant, you always choose just one of its cases; for example, `let compassDirection: Direction = .north`.</string>
+			<string>枚举：定义了一组唯一但相关的值的集合的数据类型。</string>
 		</dict>
 		<key>for loop</key>
 		<dict>
@@ -228,9 +227,9 @@
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>For%20Loops/Using%20Loops</string>
+				<string>for%20循环/使用循环</string>
 				<key>Title</key>
-				<string>For Loops</string>
+				<string>for 循环</string>
 			</dict>
 		</dict>
 		<key>function</key>
@@ -248,175 +247,174 @@
 		<key>if block</key>
 		<dict>
 			<key>Definition</key>
-			<string>The first block of code in an `if` statement. The `if` block runs if the condition in the `if` statement is `true`. </string>
+			<string>if 块：在 `if` 语句中，如果满足了条件则会运行 `if` 块中的内容。 </string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Checking%20for%20Switches</string>
+				<string>条件/检查开关状态</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>if statement</key>
 		<dict>
 			<key>Definition</key>
-			<string>A code structure used to run code based on the value of one or more conditions. The first block of code in an `if` statement is the `if` block. An `if` statement might also contain other blocks that provide additional checks, such as an `else` block and `else if` block.</string>
+			<string>if 语句：一个基于一系列条件来判断运行那一段内容的代码结构。`if` 语句应以 `if` 块开头，并可能还会有其他的块，比如 `else` 块和 `else if` 块。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Checking%20for%20Switches</string>
+				<string>条件/检查开关状态</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>index</key>
 		<dict>
 			<key>Definition</key>
-			<string>A number that represents the position of an item in an array. </string>
+			<string>索引：某个元素在数组中的位置。</string>
 		</dict>
 		<key>initialization</key>
 		<dict>
 			<key>Definition</key>
-			<string>The act of creating a new instance of a type, which includes setting initial values for any properties of the type. </string>
+			<string>初始化：创建一个类型的新实例，并为其所有属性赋初始值的行为。</string>
 		</dict>
 		<key>inner loop</key>
 		<dict>
 			<key>Definition</key>
-			<string>A repeating block of code (a loop) that’s nested inside another (outer) loop.</string>
+			<string>内层循环：包含在其他循环内的循环语句。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>While%20Loops/Nesting%20Loops</string>
+				<string>while%20循环/嵌套循环</string>
 				<key>Title</key>
-				<string>While Loops</string>
+				<string>while 循环</string>
 			</dict>
 		</dict>
 		<key>instance</key>
 		<dict>
 			<key>Definition</key>
-			<string>A value of a particular type. For example, in `let greenPortal = Portal()`, `greenPortal` is an instance of type `Portal`.</string>
+			<string>实例：某个类型的一个具体对象。</string>
 		</dict>
 		<key>Int</key>
 		<dict>
 			<key>Definition</key>
-			<string>A type that stores an integer—a number that has no decimal, such as `10` or `-42`. </string>
+			<string>整型：表示整数的数据类型。</string>
 		</dict>
 		<key>iteration</key>
 		<dict>
 			<key>Definition</key>
-			<string>The act of repeating a process, such a performing the same action on each item in an array.</string>
+			<string>迭代：对集合内每一个元素都重复执行一个过程的行为。</string>
 		</dict>
 		<key>local variable</key>
 		<dict>
 			<key>Definition</key>
-			<string>A variable declared inside of a function, loop, or other statement. Local variables can’t be accessed outside of the code they’re defined in.</string>
+			<string>局部变量：在函数内、循环内、或者其他语句块中定义的变量。局部变量不能在其被定义的语句块外被访问。</string>
 		</dict>
 		<key>logical operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol, such as `&amp;&amp;`, `||`, or `!`, that modifies or combines the Boolean logic values `true` and `false`.</string>
+			<string>逻辑运算符：类似 `&amp;&amp;`， `||`或者 `!` 用来进行布尔运算的运算符。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Logical%20Operators/Using%20the%20NOT%20Operator</string>
+				<string>逻辑运算/逻辑非</string>
 				<key>Title</key>
-				<string>Logical Operators</string>
+				<string>逻辑运算</string>
 			</dict>
 		</dict>
 		<key>logical AND operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol (`&amp;&amp;`) that combines two Boolean values where both values must be true for the overall code to be true. For example, `a &amp;&amp; b` is true only when both `a` and `b` are `true`.</string>
+			<string>逻辑与运算符：`&amp;&amp;` 用来对两个布尔值进行与运算，只有两个值均为 `true` 时，结果才为 `true`。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Logical%20Operators/Checking%20This%20AND%20That</string>
+				<string>逻辑运算/逻辑与</string>
 				<key>Title</key>
-				<string>Logical Operators</string>
+				<string>逻辑运算</string>
 			</dict>
 		</dict>
 		<key>logical NOT operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol (`!`) that inverts the Boolean value of a piece of code. For example, if `a` is `true`, then `!a` is `false`.</string>
+			<string>逻辑非运算符：`!`用来对一个布尔值进行非运算，结果即为取反。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Logical%20Operators/Using%20the%20NOT%20Operator</string>
+				<string>逻辑运算/逻辑非</string>
 				<key>Title</key>
-				<string>Logical Operators</string>
+				<string>逻辑运算</string>
 			</dict>
 		</dict>
 		<key>logical OR operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol (||) that combines two Boolean values where only one value must be true for the overall code to be true. For example, a || b is true when either a or b is true (or when both are true). 
-</string>
+			<string>逻辑或运算符：`||` 用来对两个布尔值进行与运算，只有两个值均为 `false` 时，结果才为 `false`。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Logical%20Operators/Checking%20This%20OR%20That</string>
+				<string>逻辑运算/逻辑或</string>
 				<key>Title</key>
-				<string>Logical Operators</string>
+				<string>逻辑运算</string>
 			</dict>
 		</dict>
 		<key>loop</key>
 		<dict>
 			<key>Definition</key>
-			<string>A block of code that&apos;s repeated a certain number of times (for example, a `for` loop) or until a condition is met (for example, a `while` loop).</string>
+			<string>循环：一段重复运行指定次数（例如 `for` 循环）或者重复运行知道条件不再满足为止（例如 `while` 循环）的代码块。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>For%20Loops/Using%20Loops</string>
+				<string>for%20循环/使用循环</string>
 				<key>Title</key>
-				<string>For Loops</string>
+				<string>for 循环</string>
 			</dict>
 		</dict>
 		<key>method</key>
 		<dict>
 			<key>Definition</key>
-			<string>A function, or set of commands, that’s defined inside a type.</string>
+			<string>方法：在一个类型内部定义的函数。</string>
 		</dict>
 		<key>nest</key>
 		<dict>
 			<key>Definition</key>
-			<string>To place one repeating block of code (or loop) inside another.</string>
+			<string>内部：将一个代码段放在另一个代码段里面。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>While%20Loops/Nesting%20Loops</string>
+				<string>while%20循环/嵌套循环</string>
 				<key>Title</key>
-				<string>While Loops</string>
+				<string>while 循环</string>
 			</dict>
 		</dict>
 		<key>operator</key>
 		<dict>
 			<key>Definition</key>
-			<string>A symbol, such as `+`, `-`, or `&amp;&amp;`, that represents an action on one or more values. For example, in `1 + 2`, the addition operator (`+`) adds the numbers `1` and `2`. </string>
+			<string>运算符：对一个或多个值的某种行为。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Logical%20Operators/Using%20the%20NOT%20Operator</string>
+				<string>逻辑运算/逻辑非</string>
 				<key>Title</key>
-				<string>Logical Operators</string>
+				<string>逻辑运算</string>
 			</dict>
 		</dict>
 		<key>outer loop</key>
 		<dict>
 			<key>Definition</key>
-			<string>A repeating block of code (a loop) that contains another (inner) loop.</string>
+			<string>外层循环：包含了其他循环的循环语句。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>While%20Loops/Nesting%20Loops</string>
+				<string>while%20循环/嵌套循环</string>
 				<key>Title</key>
-				<string>While Loops</string>
+				<string>while 循环</string>
 			</dict>
 		</dict>
 		<key>parameter</key>
 		<dict>
 			<key>Definition</key>
-			<string>The name of an input value to a function, used in the definition of the function. For example, in `move(distance: Int)`, `distance` is a parameter that takes a value of type Int.</string>
+			<string>参数（形式参数）：定义函数时，对等待传入参数的值的命名。</string>
 		</dict>
 		<key>pattern</key>
 		<dict>
@@ -433,19 +431,18 @@
 		<key>property</key>
 		<dict>
 			<key>Definition</key>
-			<string>A variable (a named container that stores a value) defined inside a type.</string>
+			<string>属性：在一个类型内部定义的变量。</string>
 		</dict>
 		<key>pseudocode</key>
 		<dict>
 			<key>Definition</key>
-			<string>A human-readable description of an algorithm, usually written using a mix of everyday language and code. 
-</string>
+			<string>伪代码：方便人类阅读的算法描述。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Algorithms/The%20Right-Hand%20Rule</string>
+				<string>算法/右手原则</string>
 				<key>Title</key>
-				<string>Algorithms</string>
+				<string>算法</string>
 			</dict>
 		</dict>
 		<key>reusability</key>
@@ -463,24 +460,24 @@
 		<key>state</key>
 		<dict>
 			<key>Definition</key>
-			<string>The stored information of a variable, program, or system at a given time.</string>
+			<string>状态：给定时刻一个变量、程序或系统的即时信息。</string>
 		</dict>
 		<key>statement</key>
 		<dict>
 			<key>Definition</key>
-			<string>A structure, such as a loop or `if` statement, that organizes code in a program.</string>
+			<string>语句：程序内有规则的组织代码的结构。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Checking%20for%20Switches</string>
+				<string>条件/检查开关状态</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>String</key>
 		<dict>
 			<key>Definition</key>
-			<string>A type that stores a series of characters, such as `“hello, world”` or `“dancing kittens.”`</string>
+			<string>字符串：用来存储和表示一系列字符的数据结构。</string>
 		</dict>
 		<key>Swift</key>
 		<dict>
@@ -497,40 +494,40 @@
 		<key>syntax</key>
 		<dict>
 			<key>Definition</key>
-			<string>The rules for writing code that computers can understand and run.</string>
+			<string>语法：编写能让计算机读懂并运行的代码的规则。</string>
 		</dict>
 		<key>type</key>
 		<dict>
 			<key>Definition</key>
-			<string>A named grouping of properties (the features) and methods (the behaviors) of a kind of data.</string>
+			<string>类型：包含有一组属性（特性）和方法（行为）的数据结构。</string>
 		</dict>
 		<key>variable</key>
 		<dict>
 			<key>Definition</key>
-			<string>A named container that stores a value that can be changed. </string>
+			<string>变量：初次赋值后还可以再改变其值。</string>
 		</dict>
 		<key>wireframe</key>
 		<dict>
 			<key>Definition</key>
-			<string>An outline of an item, such as a gem, switch, or block, in the puzzle world. A wireframe is used to indicate the possibility that the item could randomly appear each time the puzzle is run.</string>
+			<string>线框：这里用来表示地图上可能出现的随机元素。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Conditional%20Code/Looping%20Conditional%20Code</string>
+				<string>条件/循环条件</string>
 				<key>Title</key>
-				<string>Conditional Code</string>
+				<string>条件</string>
 			</dict>
 		</dict>
 		<key>while loop</key>
 		<dict>
 			<key>Definition</key>
-			<string>A block of code that runs for as long as a given condition is `true`. When the condition changes to `false`, the loop stops running. </string>
+			<string>while 循环：只要给定条件为 `true`，则始终重复运行的一段代码。而当条件为 `false`时，停止循环。</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>While%20Loops/Introduction</string>
+				<string>while%20循环/简介</string>
 				<key>Title</key>
-				<string>While Loops</string>
+				<string>while 循环</string>
 			</dict>
 		</dict>
 	</dict>
